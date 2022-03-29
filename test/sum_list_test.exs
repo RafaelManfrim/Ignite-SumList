@@ -11,4 +11,15 @@ defmodule SumListTest do
       assert response == expected_response
     end
   end
+
+  describe "call_enum/1" do
+    test "returns the list sum" do
+      list = [4, 5, 6]
+      response = SumList.call_enum(list)
+
+      expected_response = 15
+
+      assert response == expected_response
+    end
+  end
 end

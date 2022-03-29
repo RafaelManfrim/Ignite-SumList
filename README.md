@@ -1,6 +1,6 @@
 # SumList
 
-**TODO: Add description**
+Primeiro código em Elixir, conhecendo a sintaxe, e testando conceitos como recursividade, Tail Call Optimization, módulo Enum e também testes.
 
 ## Installation
 
